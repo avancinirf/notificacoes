@@ -123,4 +123,7 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'jwt_secret' => env('JWT_SECRET', 'fallback_valido'),
+    'jwt_ttl' => env('JWT_TTL', 10080), // 7 dias em minutos
+
 ];
